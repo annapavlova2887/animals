@@ -1,4 +1,6 @@
-package org.src;
+package org.src.animals.birds;
+
+import org.src.animals.Animals;
 
 public class Duck extends Animals implements Flying {
 
@@ -7,7 +9,7 @@ public class Duck extends Animals implements Flying {
     }
 
     @Override
-    void say() {
+    public void say() {
         System.out.println("Кря");
     }
 

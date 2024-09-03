@@ -1,4 +1,4 @@
-package org.src;
+package org.src.data;
 
 public enum Comands2 {
     CAT,

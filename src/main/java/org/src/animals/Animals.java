@@ -1,4 +1,4 @@
-package org.src;
+package org.src.animals;
 
 public abstract class Animals {
 
@@ -46,19 +46,19 @@ public abstract class Animals {
         this.color = color;
     }
 
-    void say() {
+    public void say() {
         System.out.println("Я говорю");
     }
 
-    void go() {
+    public void go() {
         System.out.println("Я иду");
     }
 
-    void drink() {
+    public void drink() {
         System.out.println("Я пью");
     }
 
-    void eat() {
+    public void eat() {
         System.out.println("Я ем");
     }
 
@@ -80,5 +80,6 @@ public abstract class Animals {
                     + name + ", мне " + age  + let + ", я вешу - "
                     + weight + " кг, мой цвет - " + color;
         }
+
 }
 

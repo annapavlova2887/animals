@@ -1,4 +1,4 @@
-package org.src;
+package org.src.animals.birds;
 
 public interface Flying {
 

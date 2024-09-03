@@ -1,4 +1,6 @@
-package org.src;
+package org.src.animals.pets;
+
+import org.src.animals.Animals;
 
 public class Dog extends Animals {
     public Dog(String name, int age, int weight, String color) {
@@ -6,7 +8,7 @@ public class Dog extends Animals {
     }
 
     @Override
-    void say() {
+    public void say() {
         System.out.println("Гав");
     }
 }
